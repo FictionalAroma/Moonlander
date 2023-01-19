@@ -3,17 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - LanderFeet
+  - Lander
+  - Platform
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Terrain
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Landing
+  - LanderFeet
+  - LanderBody
   - 
   - 
   - 
@@ -40,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2147084581
+    locked: 0
+  - name: Terrain
+    uniqueID: 391225149
+    locked: 0
+  - name: Objects
+    uniqueID: 431974927
     locked: 0
